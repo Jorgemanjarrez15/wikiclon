@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family:  -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Lato,Helvetica,Arial,sans-serif;;
+    font-size: 62.5%;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: center;
+    width: 100%;
+    height: 130px;
+    font-size: 1.6rem;
+
+    font-family: Libertine,Hoefler Text,Georgia,Times New Roman,Times,serif;
+}
+header .titulo {
+    text-align: center;
+}
+header .titulo h1::first-letter {
+    font-size: 50px;
+}
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.container {
+    display: flex;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #36c;
+}
+main article{
+    margin-top: 70px;
+}
+.section-right {
+    width: 200px;
+    height: 320px;
+
+    margin-right: -45px;
+}
+.section-right li {
+    margin-top: 25px;
+    text-align: center;
+}
+.section-right li a {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.section-right li:nth-child(1) {
+    margin-left: 65px;
+}
+.section-right li:nth-child(2) {
+    margin-left: -40px;
+}
+.section-right li:nth-child(3) {
+    margin-left: -80px;
+}
+.section-right li:nth-child(4) {
+    margin-left: -40px;
+}
+.section-right li:nth-child(5) {
+    margin-left: 65px;
+}
+article {
+    width: 150px;
+    z-index: 1;
+}
+.aside-left {
+    width: 200px;
+    height: 320px;
+
+}
+.aside-left li {
+    margin-top: 25px;
+    text-align: center;
+}
+.aside-left li a {
+    font-size: 1.6rem;
+    text-align: center;
+}
+.aside-left li:nth-child(1) {
+    margin-right: 65px;
+}
+.aside-left li:nth-child(2) {
+    margin-right: -40px;
+}
+.aside-left li:nth-child(3) {
+    margin-right: -80px;
+}
+.aside-left li:nth-child(4) {
+    margin-right: -40px;
+}
+.aside-left li:nth-child(5) {
+    margin-right: 65px;
+}
+
+/*buscador*/
+.content-search {
+    height: 35px;
+    margin-top: 20px;
+    border: 1px solid #a2a9b1;
+    border-radius: 2px;
+    outline: none;
+    display: flex;
+}
+.content-search:hover {
+    border: 1px solid #447ff5;
+}
+.content-search input {
+    width: 290px;
+    padding: 8px;
+    border: none;
+    outline: none;
+}
+.content-search .idioma {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    color: #a2a9b1;
+}
+.content-search .idioma img {
+    width: 10px;
+    margin-left: 5px;
+}
+.content-search .buscar {
+    border: #36c;
+    background-color: #36c;
+    padding: 5px;
+}
+.content-search .buscar:hover {
+    background-color: #447ff5;
+    border-color: #447ff5;
+}
+/*lere wiki*/
+.leer-wiki {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.leer-wiki .raya-left {
+    content: " ";
+    width: 5rem;
+    height: .5px;
+    border: 1px solid black;
+    margin-right: 15px;
+}
+.leer-wiki .btn-wiki button {
+    width: 250px;
+    padding: 10px;
+    font-size: 1.4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #36c;
+}
+.leer-wiki .raya-right {
+    content: "";
+    width: 5rem;
+    height: .5px;
+    border: 1px solid black;
+    margin-left: 15px;
+}
+hr {
+    width: 80%;
+    margin: 0 auto;
+}
+/*footer*/
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+footer .container-footer {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+footer .container-footer .logo-fundacion {
+    width: 50px;
+    height: 50px;
+    margin: 20px auto;
+
+}
+footer .container-footer .logo-fundacion img {
+    width: 100%;
+}
+footer .container-footer .descripcion {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.4rem;
+}
+footer .apartado {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    gap: 20rem;
+}
+footer .apartado .apartado-enlaces1 div {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 1.4rem;
+    padding: 5px;
+    border-radius: 3px;
+}
+footer .apartado .apartado-enlaces1 div:hover {
+    background-color: #a2a9b1;
+    cursor: pointer;
+}
+
+footer .apartado .apartado-enlaces2 div {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 1.4rem;
+    padding: 5px;
+    border-radius: 3px;
+}
+footer .apartado .apartado-enlaces2 div:hover {
+    background-color: #a2a9b1;
+    cursor: pointer;
+}
+
+footer .apartado .apartado-enlaces3 div {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 1.4rem;
+    padding: 5px;
+    border-radius: 3px;
+}
+footer .apartado .apartado-enlaces3 div:hover {
+    background-color: #a2a9b1;
+    cursor: pointer;
+}
+
+
+footer .pie {
+    width: 100%;
+}
+footer .pie div {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    gap: 10px;
+}
+footer .pie div ul {
+    display: flex;
+    gap: 10px;
+}
+
